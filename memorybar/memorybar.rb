@@ -43,11 +43,11 @@ on :run do |s|
       end
     end
     case nb_bars
-    when 1...7
+    when 1..7
       s.data = s.ascii_drawing + "[" + s.low_value_color    + s.bar*nb_bars + s.ascii_background + s.bar*(20 -nb_bars) + s.normal_color  + sprintf("%5s",percent.to_s ) + "%" + s.ascii_drawing + "]" 
-    when 8...14
+    when 8..14
       s.data = s.ascii_drawing + "[" + s.medium_value_color + s.bar*nb_bars + s.ascii_background + s.bar*(20 -nb_bars) + s.normal_color + sprintf("%5s",percent.to_s ) + "%"  + s.ascii_drawing + "]" 
-    when 15...20
+    when 15..20
       s.data = s.ascii_drawing + "[" + s.hight_value_color  + s.bar*nb_bars + s.ascii_background + s.bar*(20 -nb_bars) + s.normal_color + sprintf("%5s",percent.to_s ) + "%" + s.ascii_drawing + "]"
     else
       s.data = s.ascii_drawing + "[" + s.ascii_background + s.bar*(20) + s.normal_color + sprintf("%5s",percent.to_s ) + "%" + s.ascii_drawing + "]"
