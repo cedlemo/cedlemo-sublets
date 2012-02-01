@@ -27,25 +27,25 @@ NOTES
       :type        => "string",
       :description => "Color for value in range [0,limit_1]",
       :def_value   => "#93d44f"
-    }
+    },
     {
       :name        => "medium_value_color",
       :type        => "string",
       :description => "Color for value in range ]limit_1,limit_2]",
       :def_value   => "#d4aa00"
-    }
+    },
     {
       :name        => "hight_value_color",
       :type        => "string",
       :description => "Color for value in range ]limit_2,100]",
       :def_value   => "#d45500"
-    }
+    },
     {
       :name        => "normal_color",
       :type        => "string",
       :description => "Color for normal caracters",
       :def_value   => "#757575"
-    }
+    },
     {
       :name        => "ascii_drawing",
       :type        => "string",
