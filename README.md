@@ -16,4 +16,4 @@ This the repo for my subtle sublets.
 
 *  membar:
 
-		It is an ascii bar (like in htop) that display the use of total memory. User can modify color for low, medium and hight value, and set the character used in the bar.
+    It is an ascii bar (like in htop) that display the use of total memory. User can modify color for low, medium and hight value, and set the character used in the bar.
