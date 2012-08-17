@@ -1,5 +1,7 @@
+INTRODUCTION
 This the repo for my subtle sublets.
 
+FILES
 *cpucolored: 
   -display numerical value for the load of each core. Color depends on the value. Users can modify color for low, medium and hight value.
 *memcolored: 
